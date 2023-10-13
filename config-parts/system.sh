@@ -1,7 +1,7 @@
 # #!/bin/vbash
 
 # set system domain-name 'bjw-s.casa'
-# set system host-name 'gateway'
+set system host-name 'gateway'
 
 # set system ipv6 disable-forwarding
 
