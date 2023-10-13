@@ -5,9 +5,9 @@ source /opt/vyatta/etc/functions/script-template
 
 load /opt/vyatta/etc/config.boot.default
 
-set interfaces ethernet eth0
-set interfaces ethernet eth0 description 'LAN'
-set interfaces ethernet eth0 address '192.168.1.10/23'
+set interfaces ethernet eth1
+set interfaces ethernet eth1 description 'LAN'
+set interfaces ethernet eth1 address '192.168.1.10/23'
 
 set interfaces ethernet eth0 description 'WAN - Fiber'
 set interfaces ethernet eth0 mtu '1508'
