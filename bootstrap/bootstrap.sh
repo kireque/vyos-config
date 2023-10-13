@@ -10,15 +10,15 @@ set interfaces ethernet eth0 mtu '1508'
 set interfaces ethernet eth0 vif 6 description 'Internet'
 set interfaces ethernet eth0 vif 6 mtu '1508'
 
-set interfaces ethernet eth1
-set interfaces ethernet eth1 description 'LAN'
-set interfaces ethernet eth1 address '192.168.1.10/23'
-
 set interfaces pppoe pppoe0 description 'WAN - Fiber'
 set interfaces pppoe pppoe0 source-interface 'eth0.6'
 set interfaces pppoe pppoe0 mtu '1500'
 set interfaces pppoe pppoe0 authentication user 'replaceme'
 set interfaces pppoe pppoe0 authentication password 'replaceme'
+
+set interfaces ethernet eth1
+set interfaces ethernet eth1 description 'LAN'
+set interfaces ethernet eth1 address '192.168.1.10/23'
 
 set system login user vyos authentication public-keys personal key 'AAAAC3NzaC1lZDI1NTE5AAAAIG0sM4pn7l/rp1I9fOF9W8VY3yTXcJc+LVU7rEaDUOBJ'
 set system login user vyos authentication public-keys personal type 'ssh-ed25519'
