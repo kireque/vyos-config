@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Include VyOS specific functions and aliases
+source /opt/vyatta/etc/functions/script-template
+
 load /opt/vyatta/etc/config.boot.default
 
 set interfaces ethernet eth0 description 'LAN'
