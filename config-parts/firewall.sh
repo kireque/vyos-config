@@ -1,47 +1,45 @@
 # #!/bin/vbash
 
-# # Interface groups
-# set firewall group interface-group IG_containers interface 'pod-containers'
-# set firewall group interface-group IG_guest interface 'eth1.30'
-# set firewall group interface-group IG_iot interface 'eth1.40'
-# set firewall group interface-group IG_lan interface 'eth1'
-# set firewall group interface-group IG_servers interface 'eth1.10'
-# set firewall group interface-group IG_trusted interface 'eth1.20'
+# Interface groups
+set firewall group interface-group IG_containers interface 'pod-containers'
+set firewall group interface-group IG_guest interface 'eth1.30'
+set firewall group interface-group IG_iot interface 'eth1.40'
+set firewall group interface-group IG_lan interface 'eth1'
+set firewall group interface-group IG_servers interface 'eth1.10'
+set firewall group interface-group IG_trusted interface 'eth1.20'
 # set firewall group interface-group IG_trusted interface 'wg01'
-# set firewall group interface-group IG_video interface 'eth1.50'
-# set firewall group interface-group IG_wan interface 'eth5'
-# set firewall group interface-group IG_wan interface 'pppoe0'
+set firewall group interface-group IG_wan interface 'pppoe0'
 
 # # Router (VyOS itself)
-# set firewall group address-group router-addresses address 10.0.0.1
-# set firewall group address-group router-addresses address 127.0.0.1
-# set firewall group ipv6-address-group router-addresses-ipv6 address fe80::e63a:6eff:fe5a:f805
-# set firewall group ipv6-address-group router-addresses-ipv6 address ::1
+set firewall group address-group router-addresses address 10.0.0.1
+set firewall group address-group router-addresses address 127.0.0.1
+set firewall group ipv6-address-group router-addresses-ipv6 address fe80::e63a:6eff:fe5a:f805
+set firewall group ipv6-address-group router-addresses-ipv6 address ::1
 
 # # k8s nodes
-# set firewall group address-group k8s_nodes address '10.1.1.31-10.1.1.33' # Servers vLAN
-# set firewall group address-group k8s_nodes address '10.1.3.121-10.1.3.123' # IoT vLAN
+set firewall group address-group k8s_nodes address '10.1.1.31-10.1.1.33' # Servers vLAN
+set firewall group address-group k8s_nodes address '10.1.4.121-10.1.4.123' # IoT vLAN
 
 # # k8s ingress client devices
-# set firewall group address-group k8s_ingress_allowed address '10.1.3.35'
-# set firewall group address-group k8s_ingress_allowed address '10.1.3.36'
-# set firewall group address-group k8s_ingress_allowed address '10.1.3.53'
-# set firewall group address-group k8s_ingress_allowed address '10.1.3.54'
+set firewall group address-group k8s_ingress_allowed address '10.1.3.35'
+set firewall group address-group k8s_ingress_allowed address '10.1.3.36'
+set firewall group address-group k8s_ingress_allowed address '10.1.3.53'
+set firewall group address-group k8s_ingress_allowed address '10.1.3.54'
 
 # # k8s cluster services
-# set firewall group address-group k8s_api address '10.5.0.2'
-# set firewall group address-group k8s_hass address '10.1.3.151'
-# set firewall group address-group k8s_ingress address '10.45.0.1'
-# set firewall group address-group k8s_ingress address '10.45.0.3'
-# set firewall group address-group k8s_mqtt address '10.45.0.10'
+set firewall group address-group k8s_api address '10.5.0.2'
+set firewall group address-group k8s_hass address '10.1.3.151'
+set firewall group address-group k8s_ingress address '10.45.0.1'
+set firewall group address-group k8s_ingress address '10.45.0.3'
+set firewall group address-group k8s_mqtt address '10.45.0.10'
 # set firewall group address-group k8s_plex address '10.45.0.20'
 # set firewall group address-group k8s_vector_aggregator address '10.45.0.2'
 
 # # MQTT client devices
 # set firewall group address-group mqtt_clients address '10.1.2.21' # Bernd
 # set firewall group address-group mqtt_clients address '10.1.2.32'
-# set firewall group address-group mqtt_clients address '10.1.3.18' # Vacuum livingroom
-# set firewall group address-group mqtt_clients address '10.1.3.22' # Vacuum upstairs
+# set firewall group address-group mqtt_clients address '10.1.4.18' # Vacuum livingroom
+# set firewall group address-group mqtt_clients address '10.1.4.22' # Vacuum upstairs
 
 # # Plex client devices
 # set firewall group address-group plex_clients address '10.1.2.21' # Bernd
