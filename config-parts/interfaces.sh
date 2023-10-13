@@ -21,7 +21,7 @@ set interfaces ethernet eth0 vif 50 address '10.1.4.1/24'
 set interfaces ethernet eth0 vif 50 description 'VIDEO'
 
 set interfaces pppoe pppoe0 description 'WAN - Fiber'
-set interfaces pppoe pppoe0 source-interface 'eth0.6'
+set interfaces pppoe pppoe0 source-interface 'eth1.6'
 set interfaces pppoe pppoe0 mtu '1500'
 set interfaces pppoe pppoe0 authentication user "${SECRET_ISP_AUTH_USER}"
 set interfaces pppoe pppoe0 authentication password "${SECRET_ISP_AUTH_PASSWORD}"
