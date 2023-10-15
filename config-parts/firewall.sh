@@ -36,10 +36,10 @@ set firewall group address-group k8s_mqtt address '10.45.0.10'
 # set firewall group address-group k8s_vector_aggregator address '10.45.0.2'
 
 # # MQTT client devices
-# set firewall group address-group mqtt_clients address '10.1.2.21' # Bernd
-# set firewall group address-group mqtt_clients address '10.1.2.32'
-# set firewall group address-group mqtt_clients address '10.1.4.18' # Vacuum livingroom
-# set firewall group address-group mqtt_clients address '10.1.4.22' # Vacuum upstairs
+set firewall group address-group mqtt_clients address '10.1.2.21' # Bernd
+set firewall group address-group mqtt_clients address '10.1.2.32'
+set firewall group address-group mqtt_clients address '10.1.4.18' # Vacuum livingroom
+set firewall group address-group mqtt_clients address '10.1.4.22' # Vacuum upstairs
 
 # # Plex client devices
 # set firewall group address-group plex_clients address '10.1.2.21' # Bernd
