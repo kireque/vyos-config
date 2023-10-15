@@ -163,35 +163,35 @@ set firewall ipv4 input  filter rule 10 source group address-group router-addres
 set firewall ipv4 input  filter rule 10 destination group address-group router-addresses
 
 begin_traffic  to containers
-handle_traffic to containers from guest iot lan servers trusted video wan local
+handle_traffic to containers from guest iot lan servers trusted wan local
 end_traffic    to containers
 
 begin_traffic  to guest
-handle_traffic to guest from containers iot lan servers trusted video wan local
+handle_traffic to guest from containers iot lan servers trusted wan local
 end_traffic    to guest
 
 begin_traffic  to iot
-handle_traffic to iot from containers guest lan servers trusted video wan local
+handle_traffic to iot from containers guest lan servers trusted wan local
 end_traffic    to iot
 
 begin_traffic  to lan
-handle_traffic to lan from containers guest iot servers trusted video wan local
+handle_traffic to lan from containers guest iot servers trusted wan local
 end_traffic    to lan
 
 begin_traffic  to servers
-handle_traffic to servers from containers guest iot lan trusted video wan local
+handle_traffic to servers from containers guest iot lan trusted wan local
 end_traffic    to servers
 
 begin_traffic  to trusted
-handle_traffic to trusted from containers guest iot lan servers video wan local
+handle_traffic to trusted from containers guest iot lan servers wan local
 end_traffic    to trusted
 
 begin_traffic  to wan
-handle_traffic to wan from containers guest iot lan servers trusted video local
+handle_traffic to wan from containers guest iot lan servers trusted local
 end_traffic    to wan
 
 begin_traffic  to local
-handle_traffic to local from containers guest iot lan servers trusted video wan
+handle_traffic to local from containers guest iot lan servers trusted wan
 end_traffic    to local
 
 # From GUEST to IOT
