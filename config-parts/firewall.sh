@@ -32,8 +32,8 @@ set firewall group address-group k8s_hass address '10.1.3.151'
 set firewall group address-group k8s_ingress address '10.45.0.1'
 set firewall group address-group k8s_ingress address '10.45.0.3'
 set firewall group address-group k8s_mqtt address '10.45.0.10'
-# set firewall group address-group k8s_plex address '10.45.0.20'
-# set firewall group address-group k8s_vector_aggregator address '10.45.0.2'
+set firewall group address-group k8s_plex address '10.45.0.20'
+set firewall group address-group k8s_vector_aggregator address '10.45.0.2'
 
 # # MQTT client devices
 set firewall group address-group mqtt_clients address '10.1.2.21' # Bernd
