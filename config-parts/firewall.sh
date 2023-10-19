@@ -84,9 +84,9 @@ set firewall group address-group mqtt_clients address '10.1.4.22' # Vacuum upsta
 # set firewall group address-group unifi_devices address '10.1.0.21-10.1.0.24' # AP's
 
 # # Vyos containers addresses
-# set firewall group address-group vyos_coredns address '10.5.0.3'
-# set firewall group address-group vyos_dnsdist address '10.5.0.4'
-# set firewall group address-group vyos_unifi address '10.5.0.10'
+set firewall group address-group vyos_coredns address '10.5.0.3'
+set firewall group address-group vyos_dnsdist address '10.5.0.4'
+set firewall group address-group vyos_unifi address '10.5.0.10'
 
 # # Storage devices
 # set firewall group address-group nas address '10.1.1.11'
