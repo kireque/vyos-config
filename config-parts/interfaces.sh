@@ -1,8 +1,7 @@
 # #!/bin/vbash
 
-set interfaces ethernet eth0 address '192.168.1.10/23'
+set interfaces ethernet eth0 address '10.1.0.1/24'
 set interfaces ethernet eth0 description 'LAN'
-set interfaces ethernet eth0 hw-id 'e4:3a:6e:5f:33:9d'
 set interfaces ethernet eth0 vif 10 address '10.1.1.1/24'
 set interfaces ethernet eth0 vif 10 description 'SERVERS'
 set interfaces ethernet eth0 vif 20 address '10.1.2.1/24'
