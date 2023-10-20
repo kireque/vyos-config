@@ -15,16 +15,16 @@ set service ssh port '22'
 
 # # UDP Broadcast-Relay
 # set service broadcast-relay id 1 description 'Bambu 1'
-# set service broadcast-relay id 1 interface 'eth1.20'
-# set service broadcast-relay id 1 interface 'eth1.40'
+# set service broadcast-relay id 1 interface 'eth0.20'
+# set service broadcast-relay id 1 interface 'eth0.40'
 # set service broadcast-relay id 1 port '2021'
 
 # set service broadcast-relay id 2 description 'Bambu 2'
-# set service broadcast-relay id 2 interface 'eth1.20'
-# set service broadcast-relay id 2 interface 'eth1.40'
+# set service broadcast-relay id 2 interface 'eth0.20'
+# set service broadcast-relay id 2 interface 'eth0.40'
 # set service broadcast-relay id 2 port '1990'
 
 # set service broadcast-relay id 3 description 'Sonos'
-# set service broadcast-relay id 3 interface 'eth1.20'
-# set service broadcast-relay id 3 interface 'eth1.40'
+# set service broadcast-relay id 3 interface 'eth0.20'
+# set service broadcast-relay id 3 interface 'eth0.40'
 # set service broadcast-relay id 3 port '1900'

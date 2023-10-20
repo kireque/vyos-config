@@ -2,11 +2,11 @@
 
 # Interface groups
 set firewall group interface-group IG_containers interface 'pod-containers'
-set firewall group interface-group IG_guest interface 'eth1.30'
-set firewall group interface-group IG_iot interface 'eth1.40'
-set firewall group interface-group IG_lan interface 'eth1'
-set firewall group interface-group IG_servers interface 'eth1.10'
-set firewall group interface-group IG_trusted interface 'eth1.20'
+set firewall group interface-group IG_guest interface 'eth0.30'
+set firewall group interface-group IG_iot interface 'eth0.40'
+set firewall group interface-group IG_lan interface 'eth0'
+set firewall group interface-group IG_servers interface 'eth0.10'
+set firewall group interface-group IG_trusted interface 'eth0.20'
 # set firewall group interface-group IG_trusted interface 'wg01'
 set firewall group interface-group IG_wan interface 'pppoe0'
 
