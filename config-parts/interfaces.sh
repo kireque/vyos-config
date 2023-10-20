@@ -14,6 +14,13 @@ set interfaces ethernet eth0 vif 40 description 'IOT'
 set interfaces ethernet eth1 description 'WAN - Fiber'
 set interfaces ethernet eth1 hw-id 'e4:3a:6e:5f:33:9c'
 set interfaces ethernet eth1 mtu '1508'
+set interfaces ethernet eth1 vif 4 address dhcp
+set interfaces ethernet eth1 vif 4 description "eth1.4 - IPTV"
+set interfaces ethernet eth1 vif 4 dhcp-options client-option "send vendor-class-identifier &quot;IPTV_RG&quot;;"
+set interfaces ethernet eth1 vif 4 dhcp-options client-option "request rfc3442-classless-static-routes;"
+set interfaces ethernet eth1 vif 4 dhcp-options default-route no-update
+set interfaces ethernet eth1 vif 4 dhcp-options default-route-distance 210
+set interfaces ethernet eth1 vif 4 dhcp-options name-server update
 set interfaces ethernet eth1 vif 6 description 'Internet'
 set interfaces ethernet eth1 vif 6 mtu '1508'
 
