@@ -8,6 +8,9 @@
 /config/*
 
 !/config/named.conf
+!/config/named.conf.tmpl
+!/config/rndc.key.tmpl
+!/config/externaldns.key.tmpl
 !/config/zones/
 /config/zones/*
 !/config/zones/db.*
