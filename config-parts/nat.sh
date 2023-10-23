@@ -12,7 +12,7 @@ set nat destination rule 101 description 'HTTP'
 set nat destination rule 101 destination port '80'
 set nat destination rule 101 inbound-interface 'pppoe0'
 set nat destination rule 101 protocol 'tcp'
-set nat destination rule 100 translation address '10.1.0.30'
+set nat destination rule 101 translation address '10.1.0.30'
 set nat destination rule 101 translation port '80'
 
 # Force DNS
