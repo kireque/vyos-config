@@ -1,6 +1,7 @@
 # #!/bin/vbash
 
 set interfaces ethernet eth0 address '10.1.0.1/24'
+set interfaces ethernet eth0 address '192.168.0.1/23' # legacy, for migration purpose
 set interfaces ethernet eth0 hw-id "00:e2:69:59:25:68"
 set interfaces ethernet eth0 description 'LAN'
 set interfaces ethernet eth0 vif 10 address '10.1.1.1/24'
