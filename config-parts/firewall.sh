@@ -17,7 +17,7 @@ set firewall group ipv6-address-group router-addresses-ipv6 address fe80::e63a:6
 set firewall group ipv6-address-group router-addresses-ipv6 address ::1
 
 # docker node groups
-set firewall group address-group docker_node address '10.0.1.30'
+set firewall group address-group docker_node address '10.1.0.30'
 
 # # k8s nodes
 set firewall group address-group k8s_nodes address '10.1.1.31-10.1.1.33' # Servers vLAN
