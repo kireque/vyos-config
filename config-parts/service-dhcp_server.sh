@@ -110,6 +110,8 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 name-server '
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 range 0 start '10.1.0.200'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 range 0 stop '10.1.0.254'
 
+set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ubuntu ip-address '10.1.0.30'
+set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ubuntu mac-address '7a:59:bb:cc:cf:cc'
 # set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap01 ip-address '10.1.0.21'
 # set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap01 mac-address '44:d9:e7:fc:21:f9'
 # set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap02 ip-address '10.1.0.22'

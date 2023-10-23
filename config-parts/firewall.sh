@@ -16,6 +16,9 @@ set firewall group address-group router-addresses address 127.0.0.1
 set firewall group ipv6-address-group router-addresses-ipv6 address fe80::e63a:6eff:fe5a:f805
 set firewall group ipv6-address-group router-addresses-ipv6 address ::1
 
+# docker node groups
+set firewall group address-group docker_node address '10.0.1.206'
+
 # # k8s nodes
 set firewall group address-group k8s_nodes address '10.1.1.31-10.1.1.33' # Servers vLAN
 set firewall group address-group k8s_nodes address '10.1.4.121-10.1.4.123' # IoT vLAN
@@ -41,43 +44,6 @@ set firewall group address-group mqtt_clients address '10.1.2.32'
 set firewall group address-group mqtt_clients address '10.1.4.18' # Vacuum livingroom
 set firewall group address-group mqtt_clients address '10.1.4.22' # Vacuum upstairs
 
-# # Plex client devices
-# set firewall group address-group plex_clients address '10.1.2.21' # Bernd
-# set firewall group address-group plex_clients address '10.1.2.31-10.1.2.32'
-# set firewall group address-group plex_clients address '10.1.2.22' # Man-Yie
-# set firewall group address-group plex_clients address '10.1.2.33-10.1.2.34'
-# set firewall group address-group plex_clients address '10.1.2.35' # Eva
-# set firewall group address-group plex_clients address '10.1.2.36' # Kitchen
-# set firewall group address-group plex_clients address '10.1.3.16' # Apple TV
-
-# # Printers
-# set firewall group address-group printers address '10.1.3.55'
-
-# # 3D printer
-# set firewall group port-group bambu-discovery port '1990'
-# set firewall group port-group bambu-discovery port '2021'
-
-# set firewall group address-group bambu-printers address '10.1.3.11'
-
-# # Printer client machines
-# set firewall group address-group printer_allowed address '192.168.2.11'
-
-# # Scanners
-# set firewall group address-group scanners address '10.1.3.55'
-
-# # Sonos controllers
-# set firewall group port-group sonos-controller-discovery port '1900'
-
-# set firewall group address-group sonos_controllers address '10.1.2.21' # Bernd
-# set firewall group address-group sonos_controllers address '10.1.2.31-10.1.2.32'
-# set firewall group address-group sonos_controllers address '10.1.2.22' # Man-Yie
-# set firewall group address-group sonos_controllers address '10.1.2.33-10.1.2.34'
-# set firewall group address-group sonos_controllers address '10.1.3.25' # Kitchen
-
-# # Sonos players
-# set firewall group port-group sonos-player-discovery port '1900'
-
-# set firewall group address-group sonos_players address '10.1.3.61-10.1.3.67'
 
 # # Unifi devices
 # set firewall group address-group unifi_devices address '10.1.0.11-10.1.0.13' # Switches
@@ -93,3 +59,20 @@ set firewall group address-group vyos_unifi address '10.5.0.10'
 
 # # Port groups
 # set firewall group port-group wireguard port '51820'
+
+# Network groups
+set firewall group network-group cloudflare-ipv4 network '173.245.48.0/20'
+set firewall group network-group cloudflare-ipv4 network '103.21.244.0/22'
+set firewall group network-group cloudflare-ipv4 network '103.22.200.0/22'
+set firewall group network-group cloudflare-ipv4 network '103.31.4.0/22'
+set firewall group network-group cloudflare-ipv4 network '141.101.64.0/18'
+set firewall group network-group cloudflare-ipv4 network '108.162.192.0/18'
+set firewall group network-group cloudflare-ipv4 network '190.93.240.0/20'
+set firewall group network-group cloudflare-ipv4 network '188.114.96.0/20'
+set firewall group network-group cloudflare-ipv4 network '197.234.240.0/22'
+set firewall group network-group cloudflare-ipv4 network '198.41.128.0/17'
+set firewall group network-group cloudflare-ipv4 network '162.158.0.0/15'
+set firewall group network-group cloudflare-ipv4 network '104.16.0.0/13'
+set firewall group network-group cloudflare-ipv4 network '104.24.0.0/14'
+set firewall group network-group cloudflare-ipv4 network '172.64.0.0/13'
+set firewall group network-group cloudflare-ipv4 network '131.0.72.0/22'
