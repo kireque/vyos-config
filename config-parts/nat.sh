@@ -5,14 +5,14 @@ set nat destination rule 100 description 'HTTPS'
 set nat destination rule 100 destination port '443'
 set nat destination rule 100 inbound-interface 'pppoe0'
 set nat destination rule 100 protocol 'tcp'
-set nat destination rule 100 translation address '10.1.0.206'
+set nat destination rule 100 translation address '10.1.0.30'
 set nat destination rule 100 translation port '443'
 
 set nat destination rule 101 description 'HTTP'
 set nat destination rule 101 destination port '80'
 set nat destination rule 101 inbound-interface 'pppoe0'
 set nat destination rule 101 protocol 'tcp'
-set nat destination rule 100 translation address '10.1.0.206'
+set nat destination rule 100 translation address '10.1.0.30'
 set nat destination rule 101 translation port '80'
 
 # Force DNS
