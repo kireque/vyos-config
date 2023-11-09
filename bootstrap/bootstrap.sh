@@ -8,9 +8,10 @@ load /opt/vyatta/etc/config.boot.default
 set interfaces ethernet eth0
 set interfaces ethernet eth0 description 'LAN'
 set interfaces ethernet eth0 address '10.1.0.1/24'
+set interfaces ethernet eth0 address '192.168.0.1/23'
 
 set interfaces ethernet eth1 description 'WAN - Fiber'
-set interfaces ethernet eth1 mtu '1508'
+set interfaces ethernet eth1 mtu '1512'
 set interfaces ethernet eth1 vif 6 description 'Internet'
 set interfaces ethernet eth1 vif 6 mtu '1508'
 
@@ -48,7 +49,8 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 range 0 stop 
 
 # ALL -> WAN masquerade
 set nat source rule 100 description 'LAN -> WAN'
-set nat source rule 100 outbound-interface name'pppoe0'
+set nat source rule 100 outbound-interface 'pppoe0'
+set nat source rule 100 destination address '0.0.0.0/0'
 set nat source rule 100 translation address 'masquerade'
 
 commit;save
