@@ -48,8 +48,7 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 range 0 stop 
 
 # ALL -> WAN masquerade
 set nat source rule 100 description 'LAN -> WAN'
-set nat source rule 100 outbound-interface 'eth0'
-set nat source rule 100 destination address '0.0.0.0/0'
+set nat source rule 100 outbound-interface name'pppoe0'
 set nat source rule 100 translation address 'masquerade'
 
 commit;save
