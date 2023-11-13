@@ -360,10 +360,14 @@ set firewall ipv4 name lan-guest rule 999 description 'Rule: drop_invalid'
 set firewall ipv4 name lan-guest rule 999 state invalid 'enable'
 set firewall ipv4 name lan-guest rule 999 log 'enable'
 
-# From LAN to GUEST
+# From LAN to IOT
 set firewall ipv4 name lan-iot default-action 'drop'
 set firewall ipv4 name lan-iot description 'From LAN to IOT'
 set firewall ipv4 name lan-iot enable-default-log
+set firewall ipv4 name lan-iot rule 410 action 'accept'                                             # temp rule
+set firewall ipv4 name lan-iot rule 410 description 'Rule: accept_k8s_ingress_from_allowed_devices' # temp rule
+set firewall ipv4 name lan-iot rule 410 destination port 'http,https'                               # temp rule
+set firewall ipv4 name lan-iot rule 410 protocol 'tcp'                                              # temp rule
 set firewall ipv4 name lan-iot rule 999 action 'drop'
 set firewall ipv4 name lan-iot rule 999 description 'Rule: drop_invalid'
 set firewall ipv4 name lan-iot rule 999 state invalid 'enable'
@@ -450,10 +454,6 @@ set firewall ipv4 name local-iot rule 110 description 'Rule: accept_mdns'
 set firewall ipv4 name local-iot rule 110 destination port 'mdns'
 set firewall ipv4 name local-iot rule 110 protocol 'udp'
 set firewall ipv4 name local-iot rule 110 source port 'mdns'
-set firewall ipv4 name local-iot rule 410 action 'accept'                                             # temp rule
-set firewall ipv4 name local-iot rule 410 description 'Rule: accept_k8s_ingress_from_allowed_devices' # temp rule
-set firewall ipv4 name local-iot rule 410 destination port 'http,https'                               # temp rule
-set firewall ipv4 name local-iot rule 410 protocol 'tcp'                                              # temp rule
 set firewall ipv4 name local-iot rule 999 action 'drop'
 set firewall ipv4 name local-iot rule 999 description 'Rule: drop_invalid'
 set firewall ipv4 name local-iot rule 999 state invalid 'enable'
