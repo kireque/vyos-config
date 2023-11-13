@@ -3,11 +3,11 @@
 # Guest VLAN
 set service dhcp-server shared-network-name GUEST authoritative
 set service dhcp-server shared-network-name GUEST ping-check
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 default-router '192.168.2.1'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 lease '86400'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 name-server '10.5.0.4'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 range 0 start '192.168.2.200'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 range 0 stop '192.168.2.254'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 default-router '192.168.3.1'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 lease '86400'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 name-server '10.5.0.4'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 start '192.168.3.200'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 stop '192.168.3.254'
 
 # set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping manyie-work-laptop ip-address '192.168.2.11'
 # set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping manyie-work-laptop mac-address '14:f6:d8:32:46:41'
@@ -15,12 +15,12 @@ set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 range 0 
 # # IoT VLAN
 set service dhcp-server shared-network-name IOT authoritative
 set service dhcp-server shared-network-name IOT ping-check
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 default-router '10.1.3.1'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 domain-name 'bjw-s.casa'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 lease '86400'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 name-server '10.5.0.4'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 range 0 start '10.1.3.200'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 range 0 stop '10.1.3.254'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 default-router '10.1.4.1'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 domain-name 'bjw-s.casa'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 lease '86400'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 name-server '10.5.0.4'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 range 0 start '10.1.4.200'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 range 0 stop '10.1.4.254'
 
 # set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping attic-office-3dprinter-plug ip-address '10.1.3.33'
 # set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping attic-office-3dprinter-plug mac-address 'a4:e5:7c:ab:f4:cd'
