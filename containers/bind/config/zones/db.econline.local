@@ -3,8 +3,8 @@
 
 ; SOA Records
 $TTL 3600
-$ORIGIN econline.local.
-@ 3600 IN SOA gateway.econline.local. gateway.econline.local. (
+$ORIGIN home.econline.nl.
+@ 3600 IN SOA gateway.home.econline.nl. gateway.home.econline.nl. (
   1690965199         ; serial number (epoch timestamp)
   7200               ; refresh period
   3600               ; retry period
@@ -13,7 +13,7 @@ $ORIGIN econline.local.
 )
 
 ; NS Records
-@                             IN  NS gateway.econline.local.
+@                             IN  NS gateway.home.econline.nl.
 
 ; LAN
 gateway                       IN  A  10.1.0.1
@@ -79,5 +79,5 @@ driveway-camera-doorbell      IN  A  10.1.4.12
 cluster-0                     IN  A  10.5.0.2
 
 ; CNAME records
-nas                           IN  CNAME  librarium.econline.local.
-pikvm                         IN  CNAME  diego.econline.local.
+nas                           IN  CNAME  librarium.home.econline.nl.
+pikvm                         IN  CNAME  diego.home.econline.nl.
