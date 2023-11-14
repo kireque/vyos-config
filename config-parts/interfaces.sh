@@ -15,7 +15,7 @@ set interfaces ethernet eth0 vif 40 description 'IOT'
 
 set interfaces ethernet eth1 description 'WAN - Fiber'
 set interfaces ethernet eth1 hw-id '00:e2:69:59:25:69'
-set interfaces ethernet eth1 mtu '1508'
+set interfaces ethernet eth1 mtu '1512'
 set interfaces ethernet eth1 vif 6 description 'Internet'
 set interfaces ethernet eth1 vif 6 mtu '1508'
 
