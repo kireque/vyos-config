@@ -386,6 +386,10 @@ set firewall ipv4 name lan-local rule 50 description 'Rule: accept_dhcp'
 set firewall ipv4 name lan-local rule 50 destination port '67,68'
 set firewall ipv4 name lan-local rule 50 protocol 'udp'
 set firewall ipv4 name lan-local rule 50 source port '67,68'
+set firewall ipv4 name lan-local rule 200 action 'accept'                 # Temp rule
+set firewall ipv4 name lan-local rule 200 description 'Rule: accept_ssh'  # Temp rule
+set firewall ipv4 name lan-local rule 200 destination port 'ssh'          # Temp rule
+set firewall ipv4 name lan-local rule 200 protocol 'tcp'                  # Temp rule
 set firewall ipv4 name lan-local rule 60 action 'accept'
 set firewall ipv4 name lan-local rule 60 description 'Rule: accept_ntp'
 set firewall ipv4 name lan-local rule 60 destination port 'ntp'
