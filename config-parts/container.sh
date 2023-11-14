@@ -35,8 +35,22 @@ set container name dnsdist volume config source '/config/containers/dnsdist/conf
 set container name dnsdist volume config destination '/etc/dnsdist/dnsdist.conf'
 set container name dnsdist volume config mode 'ro'
 
-# # wildcard certificate
-
+# wildcard certificate
+set container name lego-auto image 'ghcr.io/bjw-s/lego-auto:v0.2.0'
+set container name lego-auto memory '0'
+set container name lego-auto allow-host-networks
+set container name lego-auto shared-memory '0'
+set container name lego-auto restart 'on-failure'
+set container name lego-auto environment TZ value 'Europe/Amsterdam'
+set container name lego-auto environment LA_DATADIR value '/config'
+set container name lego-auto environment LA_CACHEDIR value '/config/.cache'
+set container name lego-auto environment LA_EMAIL value 'postmaster@econline.nl'
+set container name lego-auto environment LA_PROVIDER value 'cloudflare'
+set container name lego-auto environment LA_DOMAINS value '*.econline.nl'
+set container name lego-auto environment CF_DNS_API_TOKEN value "${SECRET_CLOUDFLARE_DYNDNS_TOKEN}"
+set container name lego-auto volume datadir source '/config/secrets/certs/_.econline.nl'
+set container name lego-auto volume datadir destination '/config'
+set container name lego-auto volume datadir mode 'rw'
 
 # # pihole/unbound
 
