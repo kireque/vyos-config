@@ -16,7 +16,7 @@ set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 
 set service dhcp-server shared-network-name IOT authoritative
 set service dhcp-server shared-network-name IOT ping-check
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 default-router '10.1.4.1'
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 domain-name 'bjw-s.casa'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 domain-name 'home.econline.nl'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 lease '86400'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 name-server '10.5.0.4'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 range 0 start '10.1.4.200'
