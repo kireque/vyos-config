@@ -4,7 +4,7 @@
 ; SOA Records
 $TTL 3600
 $ORIGIN 1.10.in-addr.arpa.
-@ 3600 IN SOA gateway.econline.local. gateway.econline.local. (
+@ 3600 IN SOA gateway.home.econline.nl. gateway.home.econline.nl. (
   1690965199         ; serial number (epoch timestamp)
   7200               ; refresh period
   3600               ; retry period
@@ -13,69 +13,34 @@ $ORIGIN 1.10.in-addr.arpa.
 )
 
 ; NS Records
-@                          IN  NS gateway.econline.local.
+@                          IN  NS gateway.home.econline.nl.
 
 ; Reset origin
 $ORIGIN in-addr.arpa.
 
 ; LAN
-1.0.1.10                   IN  PTR  gateway.econline.local.
+1.0.1.10                   IN  PTR  gateway.home.econline.nl.
 
 ; Servers
-11.1.1.10                  IN  PTR  librarium.econline.local.
-31.1.1.10                  IN  PTR  delta.econline.local.
-32.1.1.10                  IN  PTR  enigma.econline.local.
-33.1.1.10                  IN  PTR  felix.econline.local.
-51.1.1.10                  IN  PTR  horus.econline.local.
-52.1.1.10                  IN  PTR  diego.econline.local.
+11.1.1.10                  IN  PTR  librarium.home.econline.nl.
+31.1.1.10                  IN  PTR  delta.home.econline.nl.
+32.1.1.10                  IN  PTR  enigma.home.econline.nl.
+33.1.1.10                  IN  PTR  felix.home.econline.nl.
+51.1.1.10                  IN  PTR  horus.home.econline.nl.
+52.1.1.10                  IN  PTR  diego.home.econline.nl.
 
 ; Trusted
-21.2.1.10                  IN  PTR  bernd-macbook.econline.local.
-22.2.1.10                  IN  PTR  manyie-macbook.econline.local.
-31.2.1.10                  IN  PTR  bernd-iphone.econline.local.
-32.2.1.10                  IN  PTR  bernd-ipad.econline.local.
-33.2.1.10                  IN  PTR  manyie-iphone.econline.local.
-34.2.1.10                  IN  PTR  manyie-ipad.econline.local.
-35.2.1.10                  IN  PTR  eva-ipad.econline.local.
-36.2.1.10                  IN  PTR  kitchen-ipad.econline.local.
+36.2.1.10                  IN  PTR  kitchen-ipad.home.econline.nl.
 
 ; IOT
-11.3.1.10                  IN  PTR  attic-office-3dprinter.econline.local.
-12.3.1.10                  IN  PTR  kitchen-oven.econline.local.
-13.3.1.10                  IN  PTR  kitchen-coffeemaker.econline.local.
-14.3.1.10                  IN  PTR  livingroom-tv.econline.local.
-15.3.1.10                  IN  PTR  livingroom-harmony-hub.econline.local.
-16.3.1.10                  IN  PTR  livingroom-atv.econline.local.
-17.3.1.10                  IN  PTR  livingroom-receiver.econline.local.
-18.3.1.10                  IN  PTR  livingroom-vacuum.econline.local.
-19.3.1.10                  IN  PTR  livingroom-airpurifier.econline.local.
-20.3.1.10                  IN  PTR  livingroom-nintendo-switch.econline.local.
-21.3.1.10                  IN  PTR  garden-wlanthermo.econline.local.
-22.3.1.10                  IN  PTR  upstairs-vacuum.econline.local.
-23.3.1.10                  IN  PTR  hallway-tado-bridge.econline.local.
-24.3.1.10                  IN  PTR  attic-office-hue-bridge.econline.local.
-31.3.1.10                  IN  PTR  attic-office-desk-plug.econline.local.
-32.3.1.10                  IN  PTR  upstairs-office-desk-plug.econline.local.
-33.3.1.10                  IN  PTR  attic-office-3dprinter-plug.econline.local.
-34.3.1.10                  IN  PTR  spare-p1eu-1.econline.local.
-35.3.1.10                  IN  PTR  upstairs-office-speaker-esp.econline.local.
-36.3.1.10                  IN  PTR  attic-office-speaker-esp.econline.local.
-45.3.1.10                  IN  PTR  hallway-p1reader-esp.econline.local.
-46.3.1.10                  IN  PTR  hallway-zigbee-adapter.econline.local.
-51.3.1.10                  IN  PTR  bernd-ereader.econline.local.
-52.3.1.10                  IN  PTR  manyie-ereader.econline.local.
-53.3.1.10                  IN  PTR  hallway-tablet.econline.local.
-54.3.1.10                  IN  PTR  garage-tablet.econline.local.
-55.3.1.10                  IN  PTR  study-printer.econline.local.
-61.3.1.10                  IN  PTR  kitchen-sonos.econline.local.
-62.3.1.10                  IN  PTR  upstairs-office-sonos.econline.local.
-63.3.1.10                  IN  PTR  livingroom-sonos.econline.local.
-65.3.1.10                  IN  PTR  bedroom-eva-sonos.econline.local.
-66.3.1.10                  IN  PTR  livingroom-receiver-sonos.econline.local.
-67.3.1.10                  IN  PTR  livingroom-sonos-move.econline.local.
-121.3.1.10                 IN  PTR  delta.econline.local.
-122.3.1.10                 IN  PTR  enigma.econline.local.
-123.3.1.10                 IN  PTR  felix.econline.local.
+11.3.1.10                  IN  PTR  attic-office-3dprinter.home.econline.nl.
+11.4.1.10                  IN  PTR  utility-room-slzb-05-01.home.econline.nl.
+12.4.1.10                  IN  PTR  utility-room-slzb-05-02.home.econline.nl.
+
+
+121.3.1.10                 IN  PTR  delta.home.econline.nl.
+122.3.1.10                 IN  PTR  enigma.home.econline.nl.
+123.3.1.10                 IN  PTR  felix.home.econline.nl.
 
 ; Video
-12.4.1.10                  IN  PTR  driveway-camera-doorbell.econline.local.
+12.4.1.10                  IN  PTR  driveway-camera-doorbell.home.econline.nl.
