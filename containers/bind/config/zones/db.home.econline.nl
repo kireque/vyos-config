@@ -37,8 +37,9 @@ eva-ipad                      IN  A  10.1.2.35
 kitchen-ipad                  IN  A  10.1.2.36
 
 ; IOT
-utility-room-slzb-05-01       IN  A  10.1.3.11
-utility-room-slzb-05-02       IN  A  10.1.3.12
+utility-room-slzb-05-01       IN  A  10.1.4.11
+utility-room-slzb-05-02       IN  A  10.1.4.12
+ubuntu                        IN  A  10.1.4.30
 
 
 ; Video
@@ -50,3 +51,4 @@ cluster-0                     IN  A  10.5.0.2
 ; CNAME records
 nas                           IN  CNAME  librarium.home.econline.nl.
 pikvm                         IN  CNAME  diego.home.econline.nl.
+mqtt                          IN  CNAME  ubuntu.home.econline.nl.
