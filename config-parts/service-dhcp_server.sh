@@ -26,7 +26,10 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-01 mac-address 'a8:48:fa:08:60:57'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-02 ip-address '10.1.4.12'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-02 mac-address '94:3c:c6:3b:c5:17'
-
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping ubuntu ip-address '10.1.4.30'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping ubuntu mac-address '7a:59:bb:cc:cf:cc'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping lxc-container ip-address '10.1.4.31'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping lxc-container mac-address 'B2:A8:6E:73:89:48'
 
 # set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping delta ip-address '10.1.3.121'
 # set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping delta mac-address '48:21:0b:55:c4:8a'
@@ -44,10 +47,6 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 name-server '
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 range 0 start '10.1.0.200'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 range 0 stop '10.1.0.254'
 
-set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ubuntu ip-address '10.1.0.30'
-set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ubuntu mac-address '7a:59:bb:cc:cf:cc'
-set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping lxc-container ip-address '10.1.0.31'
-set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping lxc-container mac-address 'B2:A8:6E:73:89:48'
 # set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap01 ip-address '10.1.0.21'
 # set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap01 mac-address '44:d9:e7:fc:21:f9'
 # set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap02 ip-address '10.1.0.22'
