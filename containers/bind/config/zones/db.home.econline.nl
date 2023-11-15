@@ -39,6 +39,7 @@ kitchen-ipad                  IN  A  10.1.2.36
 ; IOT
 utility-room-slzb-05-01       IN  A  10.1.4.11
 utility-room-slzb-05-02       IN  A  10.1.4.12
+utility-room-doorbell         IN  A  10.1.4.13
 ubuntu                        IN  A  10.1.4.30
 
 
