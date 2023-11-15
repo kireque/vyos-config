@@ -36,7 +36,7 @@ $ORIGIN in-addr.arpa.
 11.3.1.10                  IN  PTR  attic-office-3dprinter.home.econline.nl.
 11.4.1.10                  IN  PTR  utility-room-slzb-05-01.home.econline.nl.
 12.4.1.10                  IN  PTR  utility-room-slzb-05-02.home.econline.nl.
-
+13.4.1.10                  IN  PTR  utility-room-doorbell.home.econline.nl.
 
 121.3.1.10                 IN  PTR  delta.home.econline.nl.
 122.3.1.10                 IN  PTR  enigma.home.econline.nl.
