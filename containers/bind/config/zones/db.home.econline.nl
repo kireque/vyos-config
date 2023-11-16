@@ -17,7 +17,11 @@ $ORIGIN home.econline.nl.
 
 ; LAN
 gateway                       IN  A  10.1.0.1
-synology                      IN  A  192.168.0.3
+ap01                          IN  A  10.1.0.11
+ap02                          IN  A  10.1.0.12
+switch01                      IN  A  10.1.0.21
+switch02                      IN  A  10.1.0.22
+synology                      IN  A  10.1.0.31
 
 ; Servers
 librarium                     IN  A  10.1.1.11

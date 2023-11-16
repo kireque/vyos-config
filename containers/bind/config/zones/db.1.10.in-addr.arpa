@@ -20,6 +20,11 @@ $ORIGIN in-addr.arpa.
 
 ; LAN
 1.0.1.10                   IN  PTR  gateway.home.econline.nl.
+11.0.1.10                   IN  PTR  ap01.home.econline.nl.
+12.0.1.10                   IN  PTR  ap02.home.econline.nl.
+21.0.1.10                   IN  PTR  switch01.home.econline.nl.
+22.0.1.10                   IN  PTR  switch02.home.econline.nl.
+31.0.1.10                   IN  PTR  synology.home.econline.nl.
 
 ; Servers
 11.1.1.10                  IN  PTR  librarium.home.econline.nl.
