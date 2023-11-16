@@ -29,6 +29,6 @@ set interfaces pppoe pppoe0 authentication password "${SECRET_ISP_AUTH_PASSWORD}
 # set interfaces wireguard wg01 description 'WIREGUARD'
 # set interfaces wireguard wg01 peer oneplus-8t allowed-ips '10.0.11.4/32'
 # set interfaces wireguard wg01 peer oneplus-8t persistent-keepalive '15'
-# set interfaces wireguard wg01 peer oneplus-8t public-key '8WyIUVFoOCP14rAK/s7aUareIH2O/5kIgu/lvWPbZnA='
+# set interfaces wireguard wg01 peer oneplus-8t public-key '3oyMGNNzZvIBpY83hQa83DcSd8sTvgG0bw4TddLLKyU='
 # set interfaces wireguard wg01 port '51820'
 # set interfaces wireguard wg01 private-key "${SECRET_WIREGUARD_PRIVATE_KEY}"

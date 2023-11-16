@@ -45,6 +45,12 @@ kitchen-ipad                  IN  A  10.1.2.36
 utility-room-slzb-05-01       IN  A  10.1.4.11
 utility-room-slzb-05-02       IN  A  10.1.4.12
 utility-room-doorbell         IN  A  10.1.4.13
+utility-room-sprinklers       IN  A  10.1.4.14
+kitchen-nspanel               IN  A  10.1.4.15
+bedroom-job-nebula            IN  A  10.1.4.21
+bedroom-eva-nebula            IN  A  10.1.4.22
+utility-room-doorbell         IN  A  10.1.4.13
+utility-room-doorbell         IN  A  10.1.4.13
 ubuntu                        IN  A  10.1.4.30
 
 

@@ -42,6 +42,10 @@ $ORIGIN in-addr.arpa.
 11.4.1.10                  IN  PTR  utility-room-slzb-05-01.home.econline.nl.
 12.4.1.10                  IN  PTR  utility-room-slzb-05-02.home.econline.nl.
 13.4.1.10                  IN  PTR  utility-room-doorbell.home.econline.nl.
+14.4.1.10                  IN  PTR  utility-room-sprinklers.home.econline.nl.
+15.4.1.10                  IN  PTR  kitchen-nspanel.home.econline.nl.
+21.4.1.10                  IN  PTR  bedroom-job-nebula.home.econline.nl.
+22.4.1.10                  IN  PTR  bedroom-eva-nebula.home.econline.nl.
 
 121.3.1.10                 IN  PTR  delta.home.econline.nl.
 122.3.1.10                 IN  PTR  enigma.home.econline.nl.
