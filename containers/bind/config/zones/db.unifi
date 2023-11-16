@@ -4,7 +4,7 @@
 ; SOA Records
 $TTL 3600
 $ORIGIN unifi.
-@ 3600 IN SOA gateway.econline.local. gateway.econline.local. (
+@ 3600 IN SOA gateway.home.econline.nl. gateway.home.econline.nl. (
   1690965199         ; serial number (epoch timestamp)
   7200               ; refresh period
   3600               ; retry period
@@ -13,7 +13,7 @@ $ORIGIN unifi.
 )
 
 ; NS Records
-@                          IN  NS gateway.econline.local.
+@                          IN  NS gateway.home.econline.nl.
 
 ; CNAME Records
 @                          IN  A  10.5.0.10
