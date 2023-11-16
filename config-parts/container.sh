@@ -71,7 +71,7 @@ set container name speedtest-exporter shared-memory '0'
 # udp-broadcast-relay-mdns
 set container name udp-broadcast-relay-mdns allow-host-networks
 set container name udp-broadcast-relay-mdns cap-add 'net-raw'
-set container name udp-broadcast-relay-mdns environment CFG_DEV value 'eth0;eth0.20;eth0.40'
+set container name udp-broadcast-relay-mdns environment CFG_DEV value 'eth0;eth0.20;eth0.40' # remove eth0 after migration
 set container name udp-broadcast-relay-mdns environment CFG_ID value '2'
 set container name udp-broadcast-relay-mdns environment CFG_MULTICAST value '224.0.0.251'
 set container name udp-broadcast-relay-mdns environment CFG_PORT value '5353'
