@@ -56,7 +56,7 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mappin
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping switch02 mac-address 'f4:e2:c6:51:9a:04'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap01 ip-address '10.1.0.21'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap01 mac-address '60:22:32:36:3c:4c'
-set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap02 ip-address '10.1.0.21'
+set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap02 ip-address '10.1.0.22'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap02 mac-address '60:22:32:33:a3:08'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping synology ip-address '10.1.0.31'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping synology mac-address '00:11:32:5a:59:e3'
