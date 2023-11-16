@@ -9,10 +9,12 @@ set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 name-ser
 set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 start '192.168.3.200'
 set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 stop '192.168.3.254'
 
-# set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping manyie-work-laptop ip-address '192.168.2.11'
-# set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping manyie-work-laptop mac-address '14:f6:d8:32:46:41'
+set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-01 ip-address '192.168.2.11'
+set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-01 mac-address '20:16:42:17:f5:d6'
+set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-02 ip-address '192.168.2.12'
+set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-02 mac-address 'd8:e2:df:5f:6e:66'
 
-# # IoT VLAN
+# IoT VLAN
 set service dhcp-server shared-network-name IOT authoritative
 set service dhcp-server shared-network-name IOT ping-check
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 default-router '10.1.4.1'
@@ -41,7 +43,7 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 # set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping felix ip-address '10.1.3.123'
 # set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping felix mac-address '48:21:0b:56:09:47'
 
-# # LAN
+# LAN
 set service dhcp-server shared-network-name LAN authoritative
 set service dhcp-server shared-network-name LAN ping-check
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 default-router '10.1.0.1'
@@ -60,7 +62,8 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mappin
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping ap02 mac-address '60:22:32:33:a3:08'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping synology ip-address '10.1.0.31'
 set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mapping synology mac-address '00:11:32:5a:59:e3'
-# # Servers VLAN
+
+# Servers VLAN
 set service dhcp-server shared-network-name SERVERS authoritative
 set service dhcp-server shared-network-name SERVERS ping-check
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 default-router '10.1.1.1'
