@@ -52,6 +52,9 @@ bedroom-eva-nebula            IN  A  10.1.4.22
 utility-room-doorbell         IN  A  10.1.4.13
 utility-room-doorbell         IN  A  10.1.4.13
 ubuntu                        IN  A  10.1.4.30
+living-speaker                IN  A  10.1.4.31
+sunroom-speaker               IN  A  10.1.4.32
+office-speaker                IN  A  10.1.4.33
 
 
 ; Video

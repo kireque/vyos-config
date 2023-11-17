@@ -46,6 +46,10 @@ $ORIGIN in-addr.arpa.
 15.4.1.10                  IN  PTR  kitchen-nspanel.home.econline.nl.
 21.4.1.10                  IN  PTR  bedroom-job-nebula.home.econline.nl.
 22.4.1.10                  IN  PTR  bedroom-eva-nebula.home.econline.nl.
+30.4.1.10                  IN  PTR  ubuntu.home.econline.nl.
+31.4.1.10                  IN  PTR  living-speaker.home.econline.nl.
+32.4.1.10                  IN  PTR  sunroom-speaker.home.econline.nl.
+33.4.1.10                  IN  PTR  office-speaker.home.econline.nl.
 
 121.3.1.10                 IN  PTR  delta.home.econline.nl.
 122.3.1.10                 IN  PTR  enigma.home.econline.nl.
