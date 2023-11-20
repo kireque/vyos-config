@@ -36,14 +36,19 @@ $ORIGIN in-addr.arpa.
 
 ; Trusted
 36.2.1.10                  IN  PTR  kitchen-ipad.home.econline.nl.
+10.1.2.31                  IN  PTR  oneplus-7t.home.econline.nl.
+10.1.2.32                  IN  PTR  openplus-8t.home.econline.nl.
+10.1.2.21                  IN  PTR  surface-laptop.home.econline.nl.
 
 ; IOT
-11.3.1.10                  IN  PTR  attic-office-3dprinter.home.econline.nl.
 11.4.1.10                  IN  PTR  utility-room-slzb-05-01.home.econline.nl.
 12.4.1.10                  IN  PTR  utility-room-slzb-05-02.home.econline.nl.
 13.4.1.10                  IN  PTR  utility-room-doorbell.home.econline.nl.
 14.4.1.10                  IN  PTR  utility-room-sprinklers.home.econline.nl.
 15.4.1.10                  IN  PTR  kitchen-nspanel.home.econline.nl.
+16.4.1.10                  IN  PTR  living-television.home.econline.nl.
+10.1.4.17                  IN  PTR  living-harmonyhub.home.econline.nl.
+
 21.4.1.10                  IN  PTR  bedroom-job-nebula.home.econline.nl.
 22.4.1.10                  IN  PTR  bedroom-eva-nebula.home.econline.nl.
 30.4.1.10                  IN  PTR  ubuntu.home.econline.nl.

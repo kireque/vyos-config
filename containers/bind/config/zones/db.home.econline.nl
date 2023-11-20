@@ -32,14 +32,9 @@ horus                         IN  A  10.1.1.51
 diego                         IN  A  10.1.1.52
 
 ; Trusted
-bernd-macbook                 IN  A  10.1.2.21
-bernd-iphone                  IN  A  10.1.2.31
-bernd-ipad                    IN  A  10.1.2.32
-manyie-macbook                IN  A  10.1.2.22
-manyie-iphone                 IN  A  10.1.2.33
-manyie-ipad                   IN  A  10.1.2.34
-eva-ipad                      IN  A  10.1.2.35
-kitchen-ipad                  IN  A  10.1.2.36
+oneplus-7t                    IN  A  10.1.2.31
+oneplus-8t                    IN  A  10.1.2.32
+surface-laptop                IN  A  10.1.2.21
 
 ; IOT
 utility-room-slzb-05-01       IN  A  10.1.4.11
@@ -47,6 +42,8 @@ utility-room-slzb-05-02       IN  A  10.1.4.12
 utility-room-doorbell         IN  A  10.1.4.13
 utility-room-sprinklers       IN  A  10.1.4.14
 kitchen-nspanel               IN  A  10.1.4.15
+living-television             IN  A  10.1.4.16
+living-harmonyhub             IN  A  10.1.4.17
 bedroom-job-nebula            IN  A  10.1.4.21
 bedroom-eva-nebula            IN  A  10.1.4.22
 utility-room-doorbell         IN  A  10.1.4.13
