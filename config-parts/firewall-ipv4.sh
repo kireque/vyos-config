@@ -368,14 +368,6 @@ set firewall ipv4 name lan-guest rule 999 log 'enable'
 set firewall ipv4 name lan-iot default-action 'drop'
 set firewall ipv4 name lan-iot description 'From LAN to IOT'
 set firewall ipv4 name lan-iot enable-default-log
-set firewall ipv4 name lan-iot rule 200 action 'accept'                 # Temp rule
-set firewall ipv4 name lan-iot rule 200 description 'Rule: accept_ssh'  # Temp rule
-set firewall ipv4 name lan-iot rule 200 destination port 'ssh'          # Temp rule
-set firewall ipv4 name lan-iot rule 200 protocol 'tcp'                  # Temp rule
-set firewall ipv4 name lan-iot rule 410 action 'accept'                                             # temp rule
-set firewall ipv4 name lan-iot rule 410 description 'Rule: accept_k8s_ingress_from_allowed_devices' # temp rule
-set firewall ipv4 name lan-iot rule 410 destination port 'http,https'                               # temp rule
-set firewall ipv4 name lan-iot rule 410 protocol 'tcp'                                              # temp rule
 set firewall ipv4 name lan-iot rule 999 action 'drop'
 set firewall ipv4 name lan-iot rule 999 description 'Rule: drop_invalid'
 set firewall ipv4 name lan-iot rule 999 state invalid 'enable'
@@ -390,15 +382,6 @@ set firewall ipv4 name lan-local rule 50 description 'Rule: accept_dhcp'
 set firewall ipv4 name lan-local rule 50 destination port '67,68'
 set firewall ipv4 name lan-local rule 50 protocol 'udp'
 set firewall ipv4 name lan-local rule 50 source port '67,68'
-set firewall ipv4 name lan-local rule 110 action 'accept'                 # Temp rule
-set firewall ipv4 name lan-local rule 110 description 'Rule: accept_mdns' # Temp rule
-set firewall ipv4 name lan-local rule 110 destination port 'mdns'         # Temp rule
-set firewall ipv4 name lan-local rule 110 protocol 'udp'                  # Temp rule
-set firewall ipv4 name lan-local rule 110 source port 'mdns'              # Temp rule
-set firewall ipv4 name lan-local rule 200 action 'accept'                 # Temp rule
-set firewall ipv4 name lan-local rule 200 description 'Rule: accept_ssh'  # Temp rule
-set firewall ipv4 name lan-local rule 200 destination port 'ssh'          # Temp rule
-set firewall ipv4 name lan-local rule 200 protocol 'tcp'                  # Temp rule
 set firewall ipv4 name lan-local rule 60 action 'accept'
 set firewall ipv4 name lan-local rule 60 description 'Rule: accept_ntp'
 set firewall ipv4 name lan-local rule 60 destination port 'ntp'
@@ -476,11 +459,6 @@ set firewall ipv4 name local-iot rule 999 log 'enable'
 set firewall ipv4 name local-lan default-action 'drop'
 set firewall ipv4 name local-lan description 'From LOCAL to LAN'
 set firewall ipv4 name local-lan enable-default-log
-set firewall ipv4 name local-lan rule 110 action 'accept'                 # Temp rule
-set firewall ipv4 name local-lan rule 110 description 'Rule: accept_mdns' # Temp rule
-set firewall ipv4 name local-lan rule 110 destination port 'mdns'         # Temp rule
-set firewall ipv4 name local-lan rule 110 protocol 'udp'                  # Temp rule
-set firewall ipv4 name local-lan rule 110 source port 'mdns'              # Temp rule
 set firewall ipv4 name local-lan rule 999 action 'drop'
 set firewall ipv4 name local-lan rule 999 description 'Rule: drop_invalid'
 set firewall ipv4 name local-lan rule 999 state invalid 'enable'

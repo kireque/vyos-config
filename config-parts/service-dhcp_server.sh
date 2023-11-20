@@ -34,6 +34,8 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-sprinklers mac-address 'e8:db:84:c5:1e:35'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping kitchen-nspanel ip-address '10.1.4.15'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping kitchen-nspanel mac-address 'e0:e2:e6:0c:aa:70'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-television ip-address '10.1.4.16'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-television mac-address '20:17:42:17:82:b5'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-job-nebula ip-address '10.1.4.21'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-job-nebula mac-address 'e8:db:84:c5:1d:1d'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-eva-nebula ip-address '10.1.4.22'
@@ -81,7 +83,7 @@ set service dhcp-server shared-network-name LAN subnet 10.1.0.0/24 static-mappin
 set service dhcp-server shared-network-name SERVERS authoritative
 set service dhcp-server shared-network-name SERVERS ping-check
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 default-router '10.1.1.1'
-set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 domain-name 'bjw-s.casa'
+set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 domain-name 'home.econline.nl'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 lease '86400'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 name-server '10.5.0.4'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 range 0 start '10.1.1.200'
@@ -105,18 +107,18 @@ set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 range 0 s
 set service dhcp-server shared-network-name TRUSTED authoritative
 set service dhcp-server shared-network-name TRUSTED ping-check
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 default-router '10.1.2.1'
-set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 domain-name 'bjw-s.casa'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 domain-name 'home.econline.nl'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 lease '86400'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 name-server '10.5.0.4'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 range 0 start '10.1.2.200'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 range 0 stop '10.1.2.254'
 
-# set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping bernd-ipad ip-address '10.1.2.32'
-# set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping bernd-ipad mac-address '54:62:e2:53:72:1b'
-# set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping bernd-iphone ip-address '10.1.2.31'
-# set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping bernd-iphone mac-address '24:5e:48:98:39:1c'
-# set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping bernd-macbook ip-address '10.1.2.21'
-# set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping bernd-macbook mac-address 'f8:4d:89:7a:db:8b'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-8t ip-address '10.1.2.32'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-8t mac-address 'ac:5f:ea:f8:4b:c7'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-7t ip-address '10.1.2.31'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-7t mac-address '6a:05:15:92:d7:8b'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping surface-laptop ip-address '10.1.2.21'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping surface-laptop mac-address 'c8:34:8e:65:ce:d5'
 # set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping eva-ipad ip-address '10.1.2.35'
 # set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping eva-ipad mac-address 'aa:ab:96:ce:f8:03'
 # set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping manyie-ipad ip-address '10.1.2.34'
