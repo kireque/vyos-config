@@ -48,6 +48,7 @@ $ORIGIN in-addr.arpa.
 15.4.1.10                  IN  PTR  kitchen-nspanel.home.econline.nl.
 16.4.1.10                  IN  PTR  living-television.home.econline.nl.
 10.1.4.17                  IN  PTR  living-harmonyhub.home.econline.nl.
+10.1.4.18                  IN  PTR  living-marantz.home.econline.nl.  
 
 21.4.1.10                  IN  PTR  bedroom-job-nebula.home.econline.nl.
 22.4.1.10                  IN  PTR  bedroom-eva-nebula.home.econline.nl.
