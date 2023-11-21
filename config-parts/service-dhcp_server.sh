@@ -38,6 +38,8 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-television mac-address '20:17:42:17:82:b5'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-harmonyhub ip-address '10.1.4.17'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-harmonyhub mac-address 'c8:db:26:06:9d:43'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-marantz ip-address '10.1.4.18'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-marantz mac-address '00:06:78:28:03:2f'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-job-nebula ip-address '10.1.4.21'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-job-nebula mac-address 'e8:db:84:c5:1d:1d'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-eva-nebula ip-address '10.1.4.22'
