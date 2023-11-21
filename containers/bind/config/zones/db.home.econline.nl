@@ -44,6 +44,7 @@ utility-room-sprinklers       IN  A  10.1.4.14
 kitchen-nspanel               IN  A  10.1.4.15
 living-television             IN  A  10.1.4.16
 living-harmonyhub             IN  A  10.1.4.17
+living-marantz                IN  A  10.1.4.18
 bedroom-job-nebula            IN  A  10.1.4.21
 bedroom-eva-nebula            IN  A  10.1.4.22
 utility-room-doorbell         IN  A  10.1.4.13
