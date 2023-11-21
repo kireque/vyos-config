@@ -9,10 +9,10 @@ set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 name-ser
 set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 start '192.168.3.200'
 set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 range 0 stop '192.168.3.254'
 
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-01 ip-address '192.168.3.11'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-01 mac-address '20:16:42:17:f5:d6'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-02 ip-address '192.168.3.12'
-set service dhcp-server shared-network-name GUEST subnet 192.168.2.0/24 static-mapping xbox-02 mac-address 'd8:e2:df:5f:6e:66'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 static-mapping xbox-01 ip-address '192.168.3.11'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 static-mapping xbox-01 mac-address '20:16:42:17:f5:d6'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 static-mapping xbox-02 ip-address '192.168.3.12'
+set service dhcp-server shared-network-name GUEST subnet 192.168.3.0/24 static-mapping xbox-02 mac-address 'd8:e2:df:5f:6e:66'
 
 # IoT VLAN
 set service dhcp-server shared-network-name IOT authoritative
