@@ -53,12 +53,7 @@ zone "unifi." {
 zone "home.econline.nl." {
   type master;
   file "/etc/bind/zones/db.home.econline.nl";
-};
-
-zone "bjw-s.dev." {
-  type master;
-  file "/etc/bind/zones/db.bjw-s.dev";
-  journal "/var/cache/bind/db.bjw-s.dev.jnl";
+  journal "/var/cache/bind/db.home.econline.nl.jnl";
   allow-transfer {
     key "externaldns";
   };

@@ -35,10 +35,10 @@ $ORIGIN in-addr.arpa.
 52.1.1.10                  IN  PTR  diego.home.econline.nl.
 
 ; Trusted
-36.2.1.10                  IN  PTR  kitchen-ipad.home.econline.nl.
-10.1.2.31                  IN  PTR  oneplus-7t.home.econline.nl.
-10.1.2.32                  IN  PTR  openplus-8t.home.econline.nl.
-10.1.2.21                  IN  PTR  surface-laptop.home.econline.nl.
+36.2.1.10                  IN  PTR  kitchen-ipad.home.econline.nl. 
+31.2.1.10                  IN  PTR  oneplus-7t.home.econline.nl. 
+32.2.1.10                  IN  PTR  openplus-8t.home.econline.nl. 
+21.2.1.10                  IN  PTR  surface-laptop.home.econline.nl.
 
 ; IOT
 11.4.1.10                  IN  PTR  utility-room-slzb-05-01.home.econline.nl.
