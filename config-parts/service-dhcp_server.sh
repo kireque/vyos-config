@@ -120,7 +120,7 @@ set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 range 0 s
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-8t ip-address '10.1.2.32'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-8t mac-address 'ac:5f:ea:f8:4b:c7'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-7t ip-address '10.1.2.31'
-set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-7t mac-address '6a:05:15:92:d7:8b'
+set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping oneplus-7t mac-address '48:01:c5:73:c9:7f'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping surface-laptop ip-address '10.1.2.21'
 set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping surface-laptop mac-address 'c8:34:8e:65:ce:d5'
 # set service dhcp-server shared-network-name TRUSTED subnet 10.1.2.0/24 static-mapping eva-ipad ip-address '10.1.2.35'
