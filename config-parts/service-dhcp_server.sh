@@ -44,6 +44,8 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-job-nebula mac-address 'e8:db:84:c5:1d:1d'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-eva-nebula ip-address '10.1.4.22'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping bedroom-eva-nebula mac-address 'e8:db:84:c5:c9:03'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping master-bedroom-chromecast ip-address '10.1.4.23'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping master-bedroom-chromecast mac-address '44:09:b8:61:b4:2d'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-speaker ip-address '10.1.4.31'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping living-speaker mac-address 'd8:8c:79:43:a5:f7'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping sunroom-speaker ip-address '10.1.4.32'
