@@ -277,6 +277,7 @@ set firewall ipv4 name iot-lan enable-default-log
 set firewall ipv4 name iot-lan rule 110 action 'accept'
 set firewall ipv4 name iot-lan rule 110 description 'Rule: accept_nfs'
 set firewall ipv4 name iot-lan rule 110 destination port 'nfs'
+set firewall ipv4 name iot-lan rule 110 source group 'docker_node'
 set firewall ipv4 name iot-lan rule 110 protocol 'tcp_udp'
 set firewall ipv4 name iot-lan rule 999 action 'drop'
 set firewall ipv4 name iot-lan rule 999 description 'Rule: drop_invalid'
