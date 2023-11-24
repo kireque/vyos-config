@@ -19,6 +19,7 @@ $ORIGIN home.econline.nl.
 gateway                       IN  A  10.1.0.1
 ap01                          IN  A  10.1.0.11
 ap02                          IN  A  10.1.0.12
+pve3                          IN  A  10.1.0.13
 switch01                      IN  A  10.1.0.21
 switch02                      IN  A  10.1.0.22
 synology                      IN  A  10.1.0.31
