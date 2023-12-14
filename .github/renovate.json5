@@ -7,7 +7,7 @@
   "platform": "github",
   username: "kireque-bot[bot]",
   gitAuthor: "kireque-bot <143391978+kireque-bot[bot]@users.noreply.github.com>",
-  "repositories": ["bjw-s/vyos-config"],
+  "repositories": ["kireque/vyos-config"],
   "regexManagers": [
     {
       "description": ["Generic Docker image Regex manager"],
