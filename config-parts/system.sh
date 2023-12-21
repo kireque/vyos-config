@@ -1,10 +1,12 @@
 # #!/bin/vbash
 
-set system domain-name 'econline.local'
+set system domain-name 'home.econline.nl'
 set system host-name 'gateway'
 
 set system ipv6 disable-forwarding
 
+set system login user vyos authentication public-keys phone key 'AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFUUzB1CQkryZlW1niQGERY4S7RfmQPURcFxCu03J70xCUWKxgpDyqmqekOQrs7JgaMhKHHmK4jEGefs1aKnY9o='
+set system login user vyos authentication public-keys phone type 'ecdsa-sha2-nistp256'
 set system login user vyos authentication public-keys personal key 'AAAAC3NzaC1lZDI1NTE5AAAAIG0sM4pn7l/rp1I9fOF9W8VY3yTXcJc+LVU7rEaDUOBJ'
 set system login user vyos authentication public-keys personal type 'ssh-ed25519'
 
