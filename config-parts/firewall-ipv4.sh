@@ -831,6 +831,10 @@ set firewall ipv4 name wan-local rule 100 action 'accept'
 set firewall ipv4 name wan-local rule 100 description 'Rule: accept_wireguard'
 set firewall ipv4 name wan-local rule 100 destination port '51820'
 set firewall ipv4 name wan-local rule 100 protocol 'udp'
+set firewall ipv4 name wan-local rule 101 action 'accept'
+set firewall ipv4 name wan-local rule 101 description 'Rule: accept_uptimerobot'
+set firewall ipv4 name wan-local rule 101 protocol 'icmp'
+set firewall ipv4 name wan-local rule 101 source group network-group 'uptimerobot-ipv4'
 
 # From WAN to SERVERS
 set firewall ipv4 name wan-servers default-action 'drop'
