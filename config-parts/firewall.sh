@@ -7,7 +7,7 @@ set firewall group interface-group IG_iot interface 'eth0.40'
 set firewall group interface-group IG_lan interface 'eth0'
 set firewall group interface-group IG_servers interface 'eth0.10'
 set firewall group interface-group IG_trusted interface 'eth0.20'
-# set firewall group interface-group IG_trusted interface 'wg01'
+set firewall group interface-group IG_trusted interface 'wg01'
 set firewall group interface-group IG_wan interface 'pppoe0'
 
 # # Router (VyOS itself)
@@ -57,8 +57,8 @@ set firewall group address-group vyos_unifi address '10.5.0.10'
 # # Storage devices
 # set firewall group address-group nas address '10.1.1.11'
 
-# # Port groups
-# set firewall group port-group wireguard port '51820'
+# Port groups
+set firewall group port-group wireguard port '51820'
 
 # Network groups
 set firewall group network-group cloudflare-ipv4 network '103.21.244.0/22'
