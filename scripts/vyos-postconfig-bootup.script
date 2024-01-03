@@ -11,16 +11,16 @@ if [ -d "/home/vyos" ]; then
 [safe]
   directory = /config
 [user]
-  email = me@bjw-s.dev
-  name = Bernd Schorgers
+  email = 5346530+kireque@users.noreply.github.com
+  name = Kireque
 END
   chown vyos:users /home/vyos/.gitconfig
 
   tee -a /home/vyos/.bash_aliases <<END >/dev/null
 export SOPS_AGE_KEY_FILE=/config/secrets/age.key
 export GIT_SSH_COMMAND="ssh -i /config/secrets/id_ed25519"
-export VISUAL=vi
-export EDITOR=vi
+export VISUAL=nano
+export EDITOR=nano
 END
   chown vyos:users /home/vyos/.bash_aliases
 fi
