@@ -632,8 +632,8 @@ set firewall ipv4 name wan-local description 'From WAN to LOCAL'
 set firewall ipv4 name wan-local enable-default-log
 set firewall ipv4 name wan-local rule 1 action 'drop'
 set firewall ipv4 name wan-local rule 1 description 'Rule: drop_invalid'
-set firewall ipv4 name wan-local rule 1 state invalid 'enable'
-set firewall ipv4 name wan-local rule 1 log 'enable'
+set firewall ipv4 name wan-local rule 1 state invalid
+set firewall ipv4 name wan-local rule 1 log
 set firewall ipv4 name wan-local rule 100 action 'accept'
 set firewall ipv4 name wan-local rule 100 description 'Rule: accept_wireguard'
 set firewall ipv4 name wan-local rule 100 destination port '51820'
