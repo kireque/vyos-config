@@ -63,7 +63,7 @@ zone "home.econline.nl." {
 };
 
 zone "econline.nl." {
-  type master;
+  type slave;
   file "/etc/bind/zones/db.econline.nl";
   journal "/var/cache/bind/db.econline.nl.jnl";
   allow-transfer {
