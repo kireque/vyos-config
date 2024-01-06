@@ -3,7 +3,7 @@
 
 ; SOA Records
 $TTL 3600
-$ORIGIN econline.nl.
+$ORIGIN home.econline.nl.
 @ 3600 IN SOA gateway.home.econline.nl. gateway.home.econline.nl. (
   1690965199         ; serial number (epoch timestamp)
   7200               ; refresh period
