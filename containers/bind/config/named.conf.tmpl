@@ -50,10 +50,10 @@ zone "unifi." {
   file "/etc/bind/zones/db.unifi";
 };
 
-zone "econline.nl." {
+zone "home.econline.nl." {
   type master;
-  file "/etc/bind/zones/db.econline.nl";
-  journal "/var/cache/bind/db.econline.nl.jnl";
+  file "/etc/bind/zones/db.home.econline.nl";
+  journal "/var/cache/bind/db.home.econline.nl.jnl";
   allow-transfer {
     key "externaldns";
   };
@@ -62,10 +62,10 @@ zone "econline.nl." {
   };
 };
 
-zone "home.econline.nl." {
+zone "econline.nl." {
   type master;
-  file "/etc/bind/zones/db.home.econline.nl";
-  journal "/var/cache/bind/db.home.econline.nl.jnl";
+  file "/etc/bind/zones/db.econline.nl";
+  journal "/var/cache/bind/db.econline.nl.jnl";
   allow-transfer {
     key "externaldns";
   };
