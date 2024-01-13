@@ -20,11 +20,11 @@ $ORIGIN in-addr.arpa.
 
 ; LAN
 1.0.1.10                   IN  PTR  gateway.home.econline.nl.
-11.0.1.10                  IN  PTR  ap01.home.econline.nl.
-12.0.1.10                  IN  PTR  ap02.home.econline.nl.
+11.0.1.10                  IN  PTR  switch01.home.econline.nl.
+12.0.1.10                  IN  PTR  switch02.home.econline.nl.
 13.0.1.10                  IN  PTR  pve3.home.econline.nl.
-21.0.1.10                  IN  PTR  switch01.home.econline.nl.
-22.0.1.10                  IN  PTR  switch02.home.econline.nl.
+21.0.1.10                  IN  PTR  ap01.home.econline.nl.
+22.0.1.10                  IN  PTR  ap02.home.econline.nl.
 31.0.1.10                  IN  PTR  synology.home.econline.nl.
 
 ; Servers
@@ -36,7 +36,6 @@ $ORIGIN in-addr.arpa.
 52.1.1.10                  IN  PTR  diego.home.econline.nl.
 
 ; Trusted
-36.2.1.10                  IN  PTR  kitchen-ipad.home.econline.nl. 
 31.2.1.10                  IN  PTR  oneplus-7t.home.econline.nl. 
 32.2.1.10                  IN  PTR  openplus-8t.home.econline.nl. 
 21.2.1.10                  IN  PTR  surface-laptop.home.econline.nl.
@@ -50,13 +49,22 @@ $ORIGIN in-addr.arpa.
 16.4.1.10                  IN  PTR  living-television.home.econline.nl.
 17.4.1.10                  IN  PTR  living-harmonyhub.home.econline.nl.
 18.4.1.10                  IN  PTR  living-marantz.home.econline.nl.  
+19.4.1.10                  IN  PTR  living-roborock.home.econline.nl.  
+20.4.1.10                  IN  PTR  kitchen-wled.home.econline.nl.  
 
 21.4.1.10                  IN  PTR  bedroom-job-nebula.home.econline.nl.
 22.4.1.10                  IN  PTR  bedroom-eva-nebula.home.econline.nl.
+23.4.1.10                  IN  PTR  master-bedroom-chromecast.home.econline.nl.
+24.4.1.10                  IN  PTR  laundry-room-openduco.home.econline.nl.
+25.4.1.10                  IN  PTR  laundry-room-washer.home.econline.nl.
+26.4.1.10                  IN  PTR  office-velux-gateway.home.econline.nl.
+27.4.1.10                  IN  PTR  living-room-shelly.home.econline.nl.
+
 30.4.1.10                  IN  PTR  ubuntu.home.econline.nl.
 31.4.1.10                  IN  PTR  living-speaker.home.econline.nl.
 32.4.1.10                  IN  PTR  sunroom-speaker.home.econline.nl.
 33.4.1.10                  IN  PTR  office-speaker.home.econline.nl.
+34.4.1.10                  IN  PTR  lxc-container.home.econline.nl.
 
 121.3.1.10                 IN  PTR  delta.home.econline.nl.
 122.3.1.10                 IN  PTR  enigma.home.econline.nl.
