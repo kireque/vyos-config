@@ -17,11 +17,11 @@ $ORIGIN home.econline.nl.
 
 ; LAN
 gateway                       IN  A  10.1.0.1
-ap01                          IN  A  10.1.0.11
-ap02                          IN  A  10.1.0.12
+switch01                      IN  A  10.1.0.11
+switch02                      IN  A  10.1.0.12
 pve3                          IN  A  10.1.0.13
-switch01                      IN  A  10.1.0.21
-switch02                      IN  A  10.1.0.22
+ap01                          IN  A  10.1.0.21
+ap02                          IN  A  10.1.0.22
 synology                      IN  A  10.1.0.31
 
 ; Servers
@@ -46,14 +46,20 @@ kitchen-nspanel               IN  A  10.1.4.15
 living-television             IN  A  10.1.4.16
 living-harmonyhub             IN  A  10.1.4.17
 living-marantz                IN  A  10.1.4.18
+living-roborock               IN  A  10.1.4.19
+kitchen-wled                  IN  A  10.1.4.20
 bedroom-job-nebula            IN  A  10.1.4.21
 bedroom-eva-nebula            IN  A  10.1.4.22
-utility-room-doorbell         IN  A  10.1.4.13
-utility-room-doorbell         IN  A  10.1.4.13
+master-bedroom-chromecast     IN  A  10.1.4.23
+laundry-room-openduco         IN  A  10.1.4.24
+laundry-room-washer           IN  A  10.1.4.25
+office-velux-gateway          IN  A  10.1.4.26
+living-room-shelly            IN  A  10.1.4.27
 ubuntu                        IN  A  10.1.4.30
 living-speaker                IN  A  10.1.4.31
 sunroom-speaker               IN  A  10.1.4.32
 office-speaker                IN  A  10.1.4.33
+lxc-container                 IN  A  10.1.4.34
 
 
 ; Video
