@@ -25,12 +25,9 @@ ap02                          IN  A  10.1.0.22
 synology                      IN  A  10.1.0.31
 
 ; Servers
-librarium                     IN  A  10.1.1.11
 delta                         IN  A  10.1.1.31
 enigma                        IN  A  10.1.1.32
 felix                         IN  A  10.1.1.33
-horus                         IN  A  10.1.1.51
-diego                         IN  A  10.1.1.52
 
 ; Trusted
 oneplus-7t                    IN  A  10.1.2.31
@@ -66,7 +63,7 @@ lxc-container                 IN  A  10.1.4.34
 driveway-camera-doorbell      IN  A  10.1.4.12
 
 ; Containers
-cluster-0                     IN  A  10.5.0.2
+main.k8s                      IN  A  10.5.0.2
 onepassword-connect           IN  A  10.5.0.5
 
 ; CNAME records
