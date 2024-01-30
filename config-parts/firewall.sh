@@ -20,10 +20,11 @@ set firewall group address-group k8s_nodes address '10.1.1.31-10.1.1.33' # Serve
 set firewall group address-group k8s_nodes address '10.1.4.121-10.1.4.123' # IoT vLAN
 
 # # k8s ingress client devices
-set firewall group address-group k8s_ingress_allowed address '10.1.3.35'
-set firewall group address-group k8s_ingress_allowed address '10.1.3.36'
-set firewall group address-group k8s_ingress_allowed address '10.1.3.53'
-set firewall group address-group k8s_ingress_allowed address '10.1.3.54'
+set firewall group address-group k8s_ingress_allowed address '10.1.3.16' # Apple TV
+set firewall group address-group k8s_ingress_allowed address '10.1.3.35' # Shared iPad
+set firewall group address-group k8s_ingress_allowed address '10.1.3.36' # iPad Eva
+set firewall group address-group k8s_ingress_allowed address '10.1.3.53' # Tablet Hallway
+set firewall group address-group k8s_ingress_allowed address '10.1.3.54' # Tablet Garage
 
 # # k8s cluster services
 set firewall group address-group k8s_api address '10.5.0.2'
