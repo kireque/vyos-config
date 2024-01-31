@@ -4,7 +4,7 @@
 ; SOA Records
 $TTL 3600
 $ORIGIN econline.nl.
-@ 3600 IN SOA gateway.home.econline.nl. gateway.home.econline.nl. (
+@ 3600 IN SOA gateway.econline.nl. gateway.econline.nl. (
   1690965199         ; serial number (epoch timestamp)
   7200               ; refresh period
   3600               ; retry period
@@ -13,7 +13,7 @@ $ORIGIN econline.nl.
 )
 
 ; NS Records
-@                             IN  NS gateway.home.econline.nl.
+@                             IN  NS gateway.econline.nl.
 
 ; LAN
-www                           IN  A  10.1.0.1
+gateway                       IN  A  10.1.0.1
