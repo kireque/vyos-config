@@ -17,3 +17,5 @@ $ORIGIN econline.nl.
 
 ; LAN
 gateway                       IN  A  10.1.0.1
+homeassistant                 IN  CNAME  ubuntu.home.econline.nl.
+authelia                      IN  CNAME  ubuntu.home.econline.nl.
