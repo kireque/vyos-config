@@ -67,6 +67,7 @@ main.k8s                      IN  A  10.5.0.2
 onepassword-connect           IN  A  10.5.0.5
 
 ; CNAME records
-nas                           IN  CNAME  librarium.home.econline.nl.
+nas                           IN  CNAME  synology.home.econline.nl.
+s3                            IN  CNAME  synology.home.econline.nl.
 pikvm                         IN  CNAME  diego.home.econline.nl.
 mqtt                          IN  CNAME  ubuntu.home.econline.nl.
