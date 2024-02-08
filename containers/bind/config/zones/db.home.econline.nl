@@ -64,6 +64,7 @@ driveway-camera-doorbell      IN  A  10.1.4.12
 
 ; Containers
 main.k8s                      IN  A  10.5.0.2
+main                          IN  A  10.5.0.2
 onepassword-connect           IN  A  10.5.0.5
 
 ; CNAME records
