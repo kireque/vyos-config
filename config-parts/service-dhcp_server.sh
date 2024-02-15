@@ -64,6 +64,8 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping sunroom-speaker mac-address 'd8:8c:79:39:f4:97'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping office-speaker ip-address '10.1.4.33'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping office-speaker mac-address '14:c1:4e:12:08:13'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping hallway-zigbee-adapter ip-address '10.1.4.35'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping hallway-zigbee-adapter mac-address 'd4:8a:fc:a2:09:47'
 
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping ubuntu ip-address '10.1.4.30'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping ubuntu mac-address '7a:59:bb:cc:cf:cc'

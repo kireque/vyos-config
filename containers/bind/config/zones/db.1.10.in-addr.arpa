@@ -65,6 +65,8 @@ $ORIGIN in-addr.arpa.
 32.4.1.10                  IN  PTR  sunroom-speaker.home.econline.nl.
 33.4.1.10                  IN  PTR  office-speaker.home.econline.nl.
 34.4.1.10                  IN  PTR  lxc-container.home.econline.nl.
+35.4.1.10                  IN  PTR  hallway-zigbee-adapter.home.econline.nl.
+
 
 121.3.1.10                 IN  PTR  delta.home.econline.nl.
 122.3.1.10                 IN  PTR  enigma.home.econline.nl.

@@ -57,6 +57,7 @@ living-speaker                IN  A  10.1.4.31
 sunroom-speaker               IN  A  10.1.4.32
 office-speaker                IN  A  10.1.4.33
 lxc-container                 IN  A  10.1.4.34
+hallway-zigbee-adapter        IN  A  10.1.4.35
 
 
 ; Video
