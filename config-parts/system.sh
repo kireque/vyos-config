@@ -20,6 +20,8 @@ set system sysctl parameter kernel.pty.max value '24000'
 # set system syslog host 10.45.0.2 port '6001'
 # set system syslog host 10.45.0.2 format 'octet-counted'
 
+set system static-host-mapping host-name gateway inet '10.1.0.1'
+
 # set system task-scheduler task backup-config crontab-spec '30 0 * * *'
 # set system task-scheduler task backup-config executable path '/config/scripts/task-config-backup-usb.sh'
 

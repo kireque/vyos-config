@@ -371,7 +371,7 @@ set firewall ipv4 name servers-lan description 'From SERVERS to LAN'
 set firewall ipv4 name servers-lan default-log
 set firewall ipv4 name servers-lan rule 100 action 'accept'
 set firewall ipv4 name servers-lan rule 100 description 'Rule: accept_k8s_nodes'
-set firewall ipv4 name servers-lan rule 100 destination port '9000'
+set firewall ipv4 name servers-lan rule 100 destination port '9000,10901'
 set firewall ipv4 name servers-lan rule 100 protocol 'tcp'
 set firewall ipv4 name servers-lan rule 100 source group address-group 'k8s_nodes'
 set firewall ipv4 name servers-lan rule 999 action 'drop'
