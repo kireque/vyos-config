@@ -14,11 +14,11 @@ set system name-server '1.1.1.1'
 
 set system sysctl parameter kernel.pty.max value '24000'
 
-# set system syslog global facility all level info
-# set system syslog host 10.45.0.2 facility kern level 'warning'
-# set system syslog host 10.45.0.2 protocol 'tcp'
-# set system syslog host 10.45.0.2 port '6001'
-# set system syslog host 10.45.0.2 format 'octet-counted'
+set system syslog global facility all level info
+set system syslog host 10.45.0.2 facility kern level 'warning'
+set system syslog host 10.45.0.2 protocol 'tcp'
+set system syslog host 10.45.0.2 port '6001'
+set system syslog host 10.45.0.2 format 'octet-counted'
 
 set system static-host-mapping host-name gateway inet '10.1.0.1'
 
