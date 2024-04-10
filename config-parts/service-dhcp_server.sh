@@ -24,10 +24,6 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 name-server '
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 range 0 start '10.1.4.200'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 range 0 stop '10.1.4.254'
 
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-01 ip-address '10.1.4.11'
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-01 mac-address 'a8:48:fa:08:60:57'
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-02 ip-address '10.1.4.12'
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-slzb-05-02 mac-address '94:3c:c6:3b:c5:17'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-doorbell ip-address '10.1.4.13'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-doorbell mac-address '5c:cf:7f:3c:81:3b'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping utility-room-sprinklers ip-address '10.1.4.14'
@@ -72,12 +68,12 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping lxc-container ip-address '10.1.4.34'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping lxc-container mac-address 'B2:A8:6E:73:89:48'
 
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping delta ip-address '10.1.3.121'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping delta mac-address '1c:69:7a:a4:0a:0b'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping enigma ip-address '10.1.3.122'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping enigma mac-address '1c:69:7a:67:aa:34'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping felix ip-address '10.1.3.123'
-set service dhcp-server shared-network-name IOT subnet 10.1.3.0/24 static-mapping felix mac-address '1c:69:7a:a3:69:26'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping delta ip-address '10.1.3.121'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping delta mac-address '1c:69:7a:a4:0a:0b'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping enigma ip-address '10.1.3.122'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping enigma mac-address '1c:69:7a:67:aa:34'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping felix ip-address '10.1.3.123'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping felix mac-address '1c:69:7a:a3:69:26'
 
 # LAN
 set service dhcp-server shared-network-name LAN authoritative
@@ -115,11 +111,6 @@ set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-ma
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping enigma mac-address '1c:69:7a:67:aa:34'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping felix ip-address '10.1.1.33'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping felix mac-address '1c:69:7a:a3:69:26'
-
-# set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping horus ip-address '10.1.1.51'
-# set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping horus mac-address 'b8:27:eb:b2:09:b0'
-# set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping diego ip-address '10.1.1.52'
-# set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping diego mac-address 'dc:a6:32:93:f5:83'
 
 # # Trusted VLAN
 set service dhcp-server shared-network-name TRUSTED authoritative
