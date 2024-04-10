@@ -68,11 +68,11 @@ set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mappin
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping lxc-container ip-address '10.1.4.34'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping lxc-container mac-address 'B2:A8:6E:73:89:48'
 
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping delta ip-address '10.1.3.121'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping delta ip-address '10.1.4.121'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping delta mac-address '1c:69:7a:a4:0a:0b'
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping enigma ip-address '10.1.3.122'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping enigma ip-address '10.1.4.122'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping enigma mac-address '1c:69:7a:67:aa:34'
-set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping felix ip-address '10.1.3.123'
+set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping felix ip-address '10.1.4.123'
 set service dhcp-server shared-network-name IOT subnet 10.1.4.0/24 static-mapping felix mac-address '1c:69:7a:a3:69:26'
 
 # LAN
