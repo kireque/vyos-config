@@ -22,9 +22,9 @@ switch02                      IN  A  10.1.0.12
 pve3                          IN  A  10.1.0.13
 ap01                          IN  A  10.1.0.21
 ap02                          IN  A  10.1.0.22
-synology                      IN  A  10.1.0.31
 
 ; Servers
+synology                      IN  A  10.1.1.12
 delta                         IN  A  10.1.1.31
 enigma                        IN  A  10.1.1.32
 felix                         IN  A  10.1.1.33

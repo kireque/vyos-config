@@ -81,11 +81,6 @@ set firewall ipv4 name iot-guest rule 999 log
 set firewall ipv4 name iot-lan default-action 'drop'
 set firewall ipv4 name iot-lan description 'From IOT to LAN'
 set firewall ipv4 name iot-lan default-log
-set firewall ipv4 name iot-lan rule 110 action 'accept'
-set firewall ipv4 name iot-lan rule 110 description 'Rule: accept_nfs'
-set firewall ipv4 name iot-lan rule 110 destination port 'nfs'
-set firewall ipv4 name iot-lan rule 110 source group address-group docker_node
-set firewall ipv4 name iot-lan rule 110 protocol 'tcp_udp'
 set firewall ipv4 name iot-lan rule 999 action 'drop'
 set firewall ipv4 name iot-lan rule 999 description 'Rule: drop_invalid'
 set firewall ipv4 name iot-lan rule 999 state invalid
@@ -121,6 +116,12 @@ set firewall ipv4 name iot-local rule 999 log
 set firewall ipv4 name iot-servers default-action 'drop'
 set firewall ipv4 name iot-servers description 'From IOT to SERVERS'
 set firewall ipv4 name iot-servers default-log
+set firewall ipv4 name iot-servers rule 110 action 'accept'
+set firewall ipv4 name iot-servers rule 110 description 'Rule: accept_nfs'
+set firewall ipv4 name iot-servers rule 110 destination port 'nfs'
+set firewall ipv4 name iot-servers rule 110 source group address-group docker_node
+set firewall ipv4 name iot-servers rule 110 destination group address-group 'nas'
+set firewall ipv4 name iot-servers rule 110 protocol 'tcp_udp'
 set firewall ipv4 name iot-servers rule 300 action 'accept'
 set firewall ipv4 name iot-servers rule 300 description 'Rule: accept_mqtt_from_mqtt_clients'
 set firewall ipv4 name iot-servers rule 300 destination group address-group 'k8s_mqtt'
