@@ -104,8 +104,8 @@ set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 range 0 s
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 range 0 stop '10.1.1.254'
 
 
-set service dhcp-server shared-network-name servers subnet 10.1.1.0/24 static-mapping synology ip-address '10.1.1.12'
-set service dhcp-server shared-network-name servers subnet 10.1.1.0/24 static-mapping synology mac-address '00:11:32:5a:59:e3'
+set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping synology ip-address '10.1.1.12'
+set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping synology mac-address '00:11:32:5a:59:e3'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping delta ip-address '10.1.1.31'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping delta mac-address '1c:69:7a:a4:0a:0b'
 set service dhcp-server shared-network-name SERVERS subnet 10.1.1.0/24 static-mapping enigma ip-address '10.1.1.32'
