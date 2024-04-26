@@ -1,4 +1,4 @@
-# #!/bin/vbash
+#!/bin/vbash
 
 # General configuration
 set firewall global-options state-policy established action 'accept'
