@@ -19,7 +19,7 @@ set container name cloudflare-ddns restart 'on-failure'
 set container name cloudflare-ddns shared-memory '0'
 
 # blocky
-set container name blocky image 'ghcr.io/0xerr0r/blocky:v0.23'
+set container name blocky image 'ghcr.io/0xerr0r/blocky:v0.24'
 set container name blocky memory '0'
 set container name blocky network containers address '10.5.0.7'
 set container name blocky shared-memory '0'
