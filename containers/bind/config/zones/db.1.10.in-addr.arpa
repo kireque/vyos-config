@@ -34,6 +34,8 @@ $ORIGIN in-addr.arpa.
 33.1.1.10                  IN  PTR  felix.home.econline.nl.
 51.1.1.10                  IN  PTR  horus.home.econline.nl.
 52.1.1.10                  IN  PTR  diego.home.econline.nl.
+130.1.1.10                 IN  PTR  main.k8s.home.econline.nl.
+130.1.1.10                 IN  PTR  main.home.econline.nl.
 
 ; Trusted
 31.2.1.10                  IN  PTR  oneplus-7t.home.econline.nl. 

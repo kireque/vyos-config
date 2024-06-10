@@ -64,8 +64,8 @@ hallway-zigbee-adapter        IN  A  10.1.4.35
 driveway-camera-doorbell      IN  A  10.1.4.12
 
 ; Containers
-main.k8s                      IN  A  10.5.0.2
-main                          IN  A  10.5.0.2
+main.k8s                      IN  A  10.1.1.130
+main                          IN  A  10.1.1.130
 onepassword-connect           IN  A  10.5.0.5
 
 ; CNAME records
